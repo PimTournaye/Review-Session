@@ -1,0 +1,39 @@
+section:hover {
+  background-color: red;
+  animation-duration: 10s;
+  animation-name: color-change;
+}
+
+section {
+  display: flex;
+}
+
+.container {
+  background-color: green;
+}
+
+#example {
+  background-color: violet;
+}
+
+@keyframes color-change {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ background-color: gray;
+ color: white;
+ gap: 100px
+}
+
+
+
